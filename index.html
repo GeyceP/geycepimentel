@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+   
+    <header>
+        <img src="./imagens/aluralogo.png">
+        <h2 title="I'm a header">O Decodificador</h2>
+    </header>
+    <main>
+        <section> 
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+
+          
+            <div class="informacao">
+                <h1>Apenas letras minúsculas e sem acento.</h1>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+
+        </section>
+    
+        <section>
+            <textarea class="mensagem" cols="18" rows="10"></textarea>
+            <button class="btn-copiar" onclick="btncopiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>    
+</body>
+</html>
